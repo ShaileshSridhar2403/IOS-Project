@@ -1,6 +1,6 @@
 
 typedef struct node {
-    char *name; // name of the directory of file
+    char *name; // name of the directory or file
     node *parent; // pointer to parent
     node *nextChild; // array of children
     int isDir; // 1 if directory
